@@ -9,18 +9,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_config/flutter_config.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await FlutterConfig.loadEnvVariables();
-
-  runApp(const MaterialApp(
-    // home: MapCircles(),
-    // home: FindFriends(),
-    home: HomePage(),
-    debugShowCheckedModeBanner: false,
-  ));
-}
-
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
