@@ -15,8 +15,8 @@ void main() async {
 
   runApp(const MaterialApp(
     // home: MapCircles(),
-    // home: FindFriends(),
-    home: HomePage(),
+    home: FindFriends(),
+    // home: HomePage(),
     debugShowCheckedModeBanner: false,
   ));
 }
