@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class MapCircles extends StatefulWidget {
-  const MapCircles({ Key? key }) : super(key: key);
+  const MapCircles({Key? key}) : super(key: key);
 
   @override
   _MapCirclesState createState() => _MapCirclesState();
@@ -17,7 +17,7 @@ class _MapCirclesState extends State<MapCircles> {
     target: LatLng(37.42796133580664, -122.085749655962),
     zoom: 14.4746,
   );
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
